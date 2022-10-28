@@ -24,7 +24,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Pacman_obj","path":"objects/Pacman_obj/Pacman_obj.yy",},},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

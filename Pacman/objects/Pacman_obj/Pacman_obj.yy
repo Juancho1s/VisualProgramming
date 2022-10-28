@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Pacman_obj",
   "spriteId": {
-    "name": "Pacman_spr",
-    "path": "sprites/Pacman_spr/Pacman_spr.yy",
+    "name": "Pacman_spr_Right",
+    "path": "sprites/Pacman_spr_Right/Pacman_spr_Right.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,6 +27,12 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Red_obj","path":"objects/Red_obj/Red_obj.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Pink_obj","path":"objects/Pink_obj/Pink_obj.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Orange_obj","path":"objects/Orange_obj/Orange_obj.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Blue_obj","path":"objects/Blue_obj/Blue_obj.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Portal_obj_left","path":"objects/Portal_obj_left/Portal_obj_left.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Portal_obj_Right","path":"objects/Portal_obj_Right/Portal_obj_Right.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
