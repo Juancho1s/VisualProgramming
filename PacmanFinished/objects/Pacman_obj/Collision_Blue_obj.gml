@@ -114,6 +114,42 @@ else
 		/// @DnDArgument : "op" "3"
 		if(lives <= 0)
 		{
+			/// @DnDAction : YoYo Games.Common.Execute_Code
+			/// @DnDVersion : 1
+			/// @DnDHash : 4FCC627D
+			/// @DnDParent : 66F4D950
+			/// @DnDArgument : "code" "{$(13_10)	$(13_10)	global.GHOST_VELOCITY = 0;$(13_10)	PACMAN_SPEED = 0;$(13_10)	speed = 0;$(13_10)	Pink_obj.speed = 0;$(13_10)	Red_obj.speed = 0;$(13_10)	Blue_obj.speed = 0;$(13_10)	Orange_obj.speed = 0;$(13_10)$(13_10)	x = xstart;$(13_10)	y = ystart;$(13_10)	$(13_10)	Pink_obj.x = Pink_obj.xstart;$(13_10)	Pink_obj.y = Pink_obj.ystart;$(13_10)	Pink_obj.sprite_index = Pink_spr_Idle;$(13_10)	$(13_10)	Red_obj.x = Red_obj.xstart;$(13_10)	Red_obj.y = Red_obj.ystart;$(13_10)	Red_obj.sprite_index = Red_spr_Idle;$(13_10)	$(13_10)	Blue_obj.x = Blue_obj.xstart;$(13_10)	Blue_obj.y = Blue_obj.ystart;$(13_10)	Blue_obj.sprite_index = Blue_spr_Idle;$(13_10)	$(13_10)	Orange_obj.x = Orange_obj.xstart;$(13_10)	Orange_obj.y = Orange_obj.ystart;$(13_10)	Orange_obj.sprite_index = Orange_spr_Idle;$(13_10)		$(13_10)}$(13_10)"
+			{
+				
+				global.GHOST_VELOCITY = 0;
+				PACMAN_SPEED = 0;
+				speed = 0;
+				Pink_obj.speed = 0;
+				Red_obj.speed = 0;
+				Blue_obj.speed = 0;
+				Orange_obj.speed = 0;
+			
+				x = xstart;
+				y = ystart;
+				
+				Pink_obj.x = Pink_obj.xstart;
+				Pink_obj.y = Pink_obj.ystart;
+				Pink_obj.sprite_index = Pink_spr_Idle;
+				
+				Red_obj.x = Red_obj.xstart;
+				Red_obj.y = Red_obj.ystart;
+				Red_obj.sprite_index = Red_spr_Idle;
+				
+				Blue_obj.x = Blue_obj.xstart;
+				Blue_obj.y = Blue_obj.ystart;
+				Blue_obj.sprite_index = Blue_spr_Idle;
+				
+				Orange_obj.x = Orange_obj.xstart;
+				Orange_obj.y = Orange_obj.ystart;
+				Orange_obj.sprite_index = Orange_spr_Idle;
+					
+			}
+		
 			/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 			/// @DnDVersion : 1
 			/// @DnDHash : 3BEC0BDB

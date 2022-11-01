@@ -8,28 +8,28 @@
 	{		
 			direction = 180;
 			sprite_index = LEFT_SPRITE;
-			speed = PACMAN_SPEED;				
+			speed = global.PACMAN_SPEED;				
 	}
 	
 	if(keyboard_check(vk_right) && place_free(x + 8, y))
 	{					
 			direction = 0;
 			sprite_index = RIGHT_SPRITE;
-			speed = PACMAN_SPEED;		
+			speed = global.PACMAN_SPEED;		
 	}
 	
 	if(keyboard_check(vk_up) && place_free(x, y - 8))
 	{					
 			direction = 90;
 			sprite_index = UP_SPRITE;
-			speed = PACMAN_SPEED;
+			speed = global.PACMAN_SPEED;
 	}
 	
 	if(keyboard_check(vk_down) && place_free(x, y + 8))
 	{			
 			direction = 270;
 			sprite_index = DOWN_SPRITE;
-			speed = PACMAN_SPEED;
+			speed = global.PACMAN_SPEED;
 	}
 	
 	if(speed > 0)
@@ -40,7 +40,7 @@
 	{
 		image_speed = 0;
 		image_index = 2;
-	}		
+	}
 	
 }
 

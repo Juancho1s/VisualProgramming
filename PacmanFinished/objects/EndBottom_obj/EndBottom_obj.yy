@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "door",
+  "name": "EndBottom_obj",
   "spriteId": {
-    "name": "Sprite34",
-    "path": "sprites/Sprite34/Sprite34.yy",
+    "name": "EndButton_spr",
+    "path": "sprites/EndButton_spr/EndButton_spr.yy",
   },
   "solid": true,
   "visible": true,
@@ -24,7 +24,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

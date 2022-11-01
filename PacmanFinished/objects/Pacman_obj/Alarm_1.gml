@@ -32,6 +32,13 @@ image_index = 0;
 /// @DnDApplyTo : {Pacman_obj}
 with(Pacman_obj) speed = 0;
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 1DD84481
+/// @DnDArgument : "soundid" "FirstLevelStart_snd"
+/// @DnDSaveInfo : "soundid" "FirstLevelStart_snd"
+audio_play_sound(FirstLevelStart_snd, 0, 0, 1.0, undefined, 1.0);
+
 /// @DnDAction : YoYo Games.Movement.Jump_To_Point
 /// @DnDVersion : 1
 /// @DnDHash : 3B605AE1
